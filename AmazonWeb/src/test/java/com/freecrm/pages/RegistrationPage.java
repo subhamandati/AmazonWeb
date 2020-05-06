@@ -23,9 +23,9 @@ public class RegistrationPage extends BasePage{
 	public void register()
 	{
 		waitForElement(60,email);
-		email.sendKeys("subhashini.reddy2@gmail.com");
+		email.sendKeys("testuser@gmail.com");
 		waitForElement(60,phone);
-		phone.sendKeys("9035238565");
+		phone.sendKeys("sdgssf");
 		terms.click();
 		waitForElement(60,signUp);
 		signUp.click();
