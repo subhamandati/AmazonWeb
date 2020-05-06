@@ -22,8 +22,8 @@ public class LoginPage extends BasePage{
 	public void login()
 	{
 		waitForElement(60, email);
-		email.sendKeys("subhashini.reddy2@gmail.com");
-		password.sendKeys("Mandati@89");
+		email.sendKeys("testuser@gmail.com");
+		password.sendKeys("testpassword");
 		logIn.click();	
 	}
 
