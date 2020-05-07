@@ -23,7 +23,7 @@ public class RegistrationPage extends BasePage{
 	public void register()
 	{
 		waitForElement(60,email);
-		email.sendKeys("testuser@gmail.com");
+		email.sendKeys("testuser1@gmail.com");
 		waitForElement(60,phone);
 		phone.sendKeys("sdgssf");
 		terms.click();
