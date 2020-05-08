@@ -17,10 +17,10 @@ public class HomePage extends BasePage{
   @BeforeMethod
   @Parameters("browser")
   
-  public void browser(String browser) throws Exception 
+  public void browser(String browser, String url) throws Exception 
   {
 	  init();
-	  launch(browser);
+	  launch(browser, url);
   }
 
   @Test

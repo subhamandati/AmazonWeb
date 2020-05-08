@@ -30,13 +30,10 @@ public class AmazonHomePage extends BasePage {
   }
   
   @BeforeMethod
-  @Parameters({"browser"})
+  @Parameters({"browser","facebookUrl"})
   public void beforeMethod() throws Exception {
 	  init();
-	  launch("chrome");
-	  driver.get("https://www.facebook.com/");
-	  driver.manage().window().maximize(); 
-	  driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+	  launch("chrome","facebookUrl");
 	  }
 
   @AfterMethod

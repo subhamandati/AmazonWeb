@@ -5,13 +5,15 @@ import org.testng.annotations.Test;
 import com.amazon.AmazonWeb.BasePage;
 
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.AfterMethod;
 
 public class CrmTestCases extends BasePage{
 	@BeforeMethod
+	@Parameters({"crmForTablesUrl"})
 	  public void beforeMethod() throws Exception {
 		  init();
-		  launch("chrome");
+		  launch("chrome","crmForTablesUrl");
 	  }
 	
 	@Test

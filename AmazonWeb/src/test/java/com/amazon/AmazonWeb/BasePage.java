@@ -36,7 +36,7 @@ public class BasePage {
 		dp.load(fis);
 	}
 	
-	public static void launch(String browser)
+	public static void launch(String browser, String url)
 		{
 			if(browser.equalsIgnoreCase("Chrome"))
 			{
@@ -56,7 +56,7 @@ public class BasePage {
 			  driver.manage().deleteAllCookies();
 			  driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 			  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			  driver.get("https://freecrm.co.in/");
+			  driver.get(url);
 		}
 		
 		public void waitForElement(int timeInSeconds, WebElement locator)

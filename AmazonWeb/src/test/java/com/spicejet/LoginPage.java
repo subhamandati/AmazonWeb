@@ -14,10 +14,10 @@ public class LoginPage extends BasePage {
  
  @BeforeMethod
  @Parameters("browser")
- public void setup(String browser) throws Exception 
+ public void setup(String browser, String url) throws Exception 
  {
 	  init();
-	  launch(browser);
+	  launch(browser,url);
  }
  @Test(enabled=false)
   public void hotels(String url ) {
