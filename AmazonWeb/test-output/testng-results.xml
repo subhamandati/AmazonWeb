@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18590" started-at="2020-05-08T09:49:49Z" finished-at="2020-05-08T09:50:08Z">
+  <suite name="Default suite" duration-ms="23733" started-at="2020-05-08T14:04:49Z" finished-at="2020-05-08T14:05:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18590" started-at="2020-05-08T09:49:49Z" finished-at="2020-05-08T09:50:08Z">
-      <class name="com.mouseactions.MouseActions">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mouseactions.MouseActions@685cb137]" name="beforeMethod" is-config="true" duration-ms="17887" started-at="2020-05-08T09:49:49Z" finished-at="2020-05-08T09:50:07Z">
+    <test name="Default test" duration-ms="23733" started-at="2020-05-08T14:04:49Z" finished-at="2020-05-08T14:05:13Z">
+      <class name="com.alertshandlig.FileUpload">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.alertshandlig.FileUpload@6a4f787b]" name="setUp" is-config="true" duration-ms="16358" started-at="2020-05-08T14:04:49Z" finished-at="2020-05-08T14:05:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="dragAndDrop()[pri:0, instance:com.mouseactions.MouseActions@685cb137]" name="dragAndDrop" duration-ms="668" started-at="2020-05-08T09:50:07Z" finished-at="2020-05-08T09:50:08Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fileUpload()[pri:0, instance:com.alertshandlig.FileUpload@6a4f787b]" name="fileUpload" duration-ms="7313" started-at="2020-05-08T14:05:06Z" finished-at="2020-05-08T14:05:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dragAndDrop -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mouseactions.MouseActions@685cb137]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-08T09:50:08Z" finished-at="2020-05-08T09:50:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.mouseactions.MouseActions -->
+        </test-method> <!-- fileUpload -->
+      </class> <!-- com.alertshandlig.FileUpload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
