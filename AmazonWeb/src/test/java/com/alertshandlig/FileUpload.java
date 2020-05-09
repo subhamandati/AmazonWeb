@@ -23,6 +23,7 @@ public class FileUpload extends BasePage{
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//span[contains(text(),'Click here to add files')]")).click();
 		Thread.sleep(3000);
+		System.out.println("test");
 		Runtime.getRuntime().exec("C:\\Users\\Dell\\Desktop\\fileupload.exe");
 	}
 	

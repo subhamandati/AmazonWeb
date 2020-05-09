@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.alertshandlig.Alerts">
+      <class name="com.alertshandlig.FileUpload">
         <methods>
+          <include name="setUp"/>
+          <include name="fileUpload"/>
           <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="actOnWindowAlert"/>
         </methods>
-      </class> <!-- com.alertshandlig.Alerts -->
+      </class> <!-- com.alertshandlig.FileUpload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
