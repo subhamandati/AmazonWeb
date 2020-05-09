@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23733" started-at="2020-05-08T14:04:49Z" finished-at="2020-05-08T14:05:13Z">
+  <suite name="Default suite" duration-ms="23049" started-at="2020-05-09T11:18:26Z" finished-at="2020-05-09T11:18:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23733" started-at="2020-05-08T14:04:49Z" finished-at="2020-05-08T14:05:13Z">
-      <class name="com.alertshandlig.FileUpload">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.alertshandlig.FileUpload@6a4f787b]" name="setUp" is-config="true" duration-ms="16358" started-at="2020-05-08T14:04:49Z" finished-at="2020-05-08T14:05:06Z">
+    <test name="Default test" duration-ms="23049" started-at="2020-05-09T11:18:26Z" finished-at="2020-05-09T11:18:50Z">
+      <class name="com.alertshandlig.Alerts">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.alertshandlig.Alerts@685cb137]" name="setup" is-config="true" duration-ms="21270" started-at="2020-05-09T11:18:27Z" finished-at="2020-05-09T11:18:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="fileUpload()[pri:0, instance:com.alertshandlig.FileUpload@6a4f787b]" name="fileUpload" duration-ms="7313" started-at="2020-05-08T14:05:06Z" finished-at="2020-05-08T14:05:13Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="actOnWindowAlert()[pri:0, instance:com.alertshandlig.Alerts@685cb137]" name="actOnWindowAlert" duration-ms="519" started-at="2020-05-09T11:18:48Z" finished-at="2020-05-09T11:18:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fileUpload -->
-      </class> <!-- com.alertshandlig.FileUpload -->
+        </test-method> <!-- actOnWindowAlert -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.alertshandlig.Alerts@685cb137]" name="tearDown" is-config="true" duration-ms="1220" started-at="2020-05-09T11:18:48Z" finished-at="2020-05-09T11:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.alertshandlig.Alerts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
